@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+body{
+    overflow: hidden;
+}
+nav .icons i{
+    cursor: pointer;
+}
+aside nav{
+    padding-right: 100px;
+}
+aside nav i{
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    font-size: 25px;
+    margin-left: 50px;
+    transition: 0.3s;
+}
+aside nav li a{
+    display: block;
+    padding: 20px 3px 20px 32px;
+    font-size: 25px;
+    transition: 0.3s;
+}
+aside nav li a:hover , aside nav i:hover{
+    color: rgba(214, 46, 51, 0.4);
+}
+aside{
+    left: -231.413px;
+}
+
+.form-control::placeholder{
+    color: #777;
+}
+/* home */
+#Home{
+    background-image: linear-gradient(rgba(214, 46, 51 , 0.6),rgba(214, 46, 51 , 0.6)) ,url('../images/events-heavenly-header.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#Duration h2{
+    background-color: rgba(214, 46, 51, 0.6);
+    cursor: pointer;
+}
+#Duration p{
+    background-color: #ccc;
+}
+#Details{
+    background-image: linear-gradient(rgba(214, 46, 51 , 0.6),rgba(214, 46, 51 , 0.6)) ,url('../images/depositphotos_102445168-stock-photo-diverse-people-holding-hands.jpg');
+    background-position: center;
+    background-size: cover;
+}
+#Details .time{
+    border: 2px solid white;
+    padding: 30px 20px;
+} 
+#Contact p{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #777;
+}
+#Contact .col-md-6 p,#Contact .info {
+    font-weight: 400;
+    color: #777;
+}
+
+#Contact .icons i{
+    width: 40px;
+    height: 40px;
+    color: #999;
+    font-size: 20px;
+    margin-right: 10px;
+    border: 1px solid #999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Contact form button {
+    background-color: #D62E33;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 0;
+    text-transform: uppercase;
+}
